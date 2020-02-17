@@ -14,7 +14,6 @@ func main() {
 		micro.Version("latest"),
 	)
 
-	// Initialise service
 	service.Init()
 
 	// Register Handler
