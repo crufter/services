@@ -16,7 +16,7 @@ micro run --server users/service
 micro run --server account/api 
 micro run --server account/web
 
-# Waiting for account & user servicec to start
+# Waiting for account & user service to start
 sleep 5
 micro call go.micro.api.account Account.Signup '{"email":"user@micro.mu","password":"local"}'
 
